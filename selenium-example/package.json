@@ -1,0 +1,21 @@
+{
+  "name": "selenium-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "mocha"
+  },
+  "private": true,
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^83.0.0",
+    "geckodriver": "^1.19.1",
+    "mocha": "^8.0.1",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
